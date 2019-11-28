@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<style>
+			body {
+			  background-color: #35364B;
+			}
+			.grid-container {
+			  width:80%;	
+			  display: grid;
+			  margin-left:10%;	
+			  grid-gap: 5px;
+			  margin-top: 5px;	
+              background-color: #35364B;
+			}
+			#grid-container-1{
+			  grid-template-columns: 2fr 1fr 1fr;
+			}
+			#grid-container-2{
+			  grid-template-columns: 1fr 1fr 1fr 1fr;
+			}
+			#grid-container-3{
+			  grid-template-columns: 1fr 1fr 2fr;
+			}
+			.grid-container > div {
+			  background-color: rgba(255, 255, 255, 0.8);
+			  padding: 20px 0;
+			  font-size: 30px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div class="grid-container" id="grid-container-1">
+			  <div id="item1">1</div>
+			  <div id="item2">2</div>
+			  <div id="item3">3</div>  
+        </div>
+        <div class=" grid-container" id="grid-container-2">
+			  <div id="item1">1</div>
+			  <div id="item2">2</div>
+			  <div id="item3">3</div>  
+			  <div id="item4">4</div>
+        </div>
+        <div class=" grid-container" id="grid-container-3">
+			  <div id="item1">1</div>
+			  <div id="item2">2</div>
+			  <div id="item3">3</div>  
+        </div>
+	</body>
+</html>
